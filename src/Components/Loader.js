@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Loader extends Component {
-  render() {
+function Loader() {
+  
     return (
       <div className='text-center'>
         <img className='my-4' src="../loader.gif" alt="loader" />
       </div>
     )
   }
-}
+  export default Loader;
