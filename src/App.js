@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
 function App(){
 
- const apiKey= 'b40a9ebb03c249639cc08b8c43d03697';
+ const apiKey= process.env.REACT_APP_API_KEY;
 
   const [progress , setProgress]= useState(0);
     return (
